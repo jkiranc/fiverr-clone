@@ -1,0 +1,133 @@
+* {
+  outline: none;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.header_left {
+}
+
+.header_right {
+}
+.header_right ul {
+  display: flex;
+}
+.header_right ul li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  padding: 0 10px;
+}
+
+.home {
+}
+
+.home .home_section1 {
+  background: url("https://fiverr-res.cloudinary.com/image/upload/q_auto,f_auto/v1/attachments/generic_asset/asset/2413b8415dda9dbd7756d02cb87cd4b1-1599595203045/bg-hero-2-1792-x1.png");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+}
+
+.home_mini_container {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  z-index: 3;
+  padding-left: 32px;
+}
+.home_container {
+  max-width: 650px;
+}
+
+.home_title {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 48px;
+  line-height: 56px;
+  padding-bottom: 24px;
+}
+.home_title i {
+  font-weight: 500;
+}
+.home_form {
+  display: flex;
+}
+.home_form_input {
+  font-size: 16px;
+  padding-left: 44px;
+  margin-bottom: 0;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  width: 545px;
+}
+
+.home_form_input_button {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid transparent;
+  font-size: 16px;
+  line-height: 100%;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+  font-weight: 700;
+  height: 48px;
+  padding: 12px 24px;
+  border-radius: 0 4px 4px 0;
+  width: 105px;
+  background-color: #1dbf73;
+  color: white;
+}
+
+.home_popular {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  line-height: 27px;
+}
+
+.home_popular ul {
+  display: flex;
+  padding-left: 20px;
+}
+.home_popular ul li {
+  line-height: 24px;
+  font-weight: 600;
+  padding: 1px 12px 0;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+  background-color: transparent;
+  list-style: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.home_popular ul li:hover {
+  background: white;
+  color: #404145;
+}
+.header_right ul li.header_join {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 7px 20px;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+.header_join:hover {
+  background-color: #1dbf73;
+  border: 1px #1dbf73 solid;
+}
