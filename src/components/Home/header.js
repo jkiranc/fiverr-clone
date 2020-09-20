@@ -1,10 +1,13 @@
 import React from "react";
+import {
+ Link
+} from "react-router-dom";
 
 function Header() {
   return (
     <div className="header">
       <div className="header_left">
-        <svg
+        <Link to="/"> <svg
           width={89}
           height={27}
           viewBox="0 0 89 27"
@@ -18,6 +21,7 @@ function Header() {
             <path d="m85.3 27c2 0 3.7-1.7 3.7-3.7s-1.7-3.7-3.7-3.7-3.7 1.7-3.7 3.7 1.7 3.7 3.7 3.7z" />
           </g>
         </svg>
+        </Link>
       </div>
       <div className="header_right">
         <ul>

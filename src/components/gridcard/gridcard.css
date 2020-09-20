@@ -1,0 +1,112 @@
+.gridCard {
+  width: 25%;
+  padding: 16px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  min-width: 245px;
+}
+.gridCard .container {
+  border: 1px solid #e5e5e5;
+}
+
+.gridCard .gridCard_image .gridCard_slider {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+  width: 100%;
+}
+.gridCard .gridCard_info {
+  display: flex;
+  height: 56px;
+  align-items: center;
+}
+.gridCard_sub{
+    margin-left: 8px;
+}
+.gridCard_sub p {
+  padding: 0;
+  margin: 0;
+}
+.gridCard_sub .sellername {
+  height: 18px;
+  display: block;
+  color: #0e0e0f;
+}
+.gridCard_sub .sellerrating {
+  color: #ffbf00;
+  font-weight: 500;
+}
+.gridCard_profile_img .sellerpic {
+  min-width: 25px;
+  height: 25px;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.gridCard_title h3{
+    cursor: pointer;
+    color: #222325;
+    line-height: 22px;
+    font-weight: 600;
+    height: 43px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 12px 5px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    word-break: break-word;
+    -webkit-transition: .15s ease-in-out;
+    -o-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.gridCard_rating{    
+    padding: 0 12px 5px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffbf00;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+}
+.gridCard_rating span{
+    color: #b2b2b2;
+    font-weight: 400;
+    margin-left: 2px;
+}
+
+.gridCard_price{
+    padding: 0 12px;
+    border-top: 1px solid #eee;
+
+}
+.gridCard_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gridCard_price_right{
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+
+}
+
+.gridCard_price_right small{
+    padding: 2px 8px 0 0;
+    line-height: 20px;
+    margin-top: 1px;
+    color: #555;
+}
+
+.gridCard_price_right p{
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 1px;
+    color: #555;
+}

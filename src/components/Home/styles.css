@@ -24,7 +24,20 @@
   font-size: 20px;
   color: white;
   padding: 0 10px;
+  cursor: pointer;
 }
+.header_right ul li.header_join {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 7px 20px;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+.header_join:hover {
+  background-color: #1dbf73;
+  border: 1px #1dbf73 solid;
+}
+
 
 .home {
 }
@@ -103,7 +116,10 @@
   display: flex;
   padding-left: 20px;
 }
-.home_popular ul li {
+.home_popular ul li{
+  list-style: none;
+}
+.home_popular ul a {
   line-height: 24px;
   font-weight: 600;
   padding: 1px 12px 0;
@@ -115,19 +131,9 @@
   list-style: none;
   margin-right: 10px;
   cursor: pointer;
+  text-decoration: none;
 }
-.home_popular ul li:hover {
+.home_popular ul a:hover {
   background: white;
   color: #404145;
-}
-.header_right ul li.header_join {
-  font-size: 14px;
-  font-weight: 700;
-  padding: 7px 20px;
-  border-radius: 3px;
-  border: 1px solid white;
-}
-.header_join:hover {
-  background-color: #1dbf73;
-  border: 1px #1dbf73 solid;
 }

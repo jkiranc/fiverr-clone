@@ -1,0 +1,57 @@
+.category .header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.category .header_left #fiverr_logo_nav {
+    fill: black;
+}
+
+.category .header_right {
+}
+.category .header_right ul {
+  display: flex;
+  align-items: center;
+}
+.category .header_right ul li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #7a7d85;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.category .header_right ul li:hover {
+    color: #1dbf73;
+}
+.category .header_right ul li.header_join {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 7px 20px;
+  border-radius: 3px;
+  border: 1px solid #1dbf73;
+  color: #1dbf73;
+}
+.category .header_right ul li.header_join:hover {
+  background-color: #1dbf73;
+  border: 1px #1dbf73 solid;
+  color: white;
+}
+
+.category .category_row{
+    position: relative;
+    margin: 0 auto;
+    padding: 32px;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+}

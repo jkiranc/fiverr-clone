@@ -1,0 +1,19 @@
+.categoryNav {
+    padding: 0 32px;
+    border-top: 1px solid #e4e5e7;
+    border-bottom: 1px solid #e4e5e7;
+}
+.categoryNav ul {
+    padding: 8px 0;
+    margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.categoryNav ul li {
+  list-style: none;
+  color: #777;
+  font-weight: 600;
+  font-size: 17px;
+}

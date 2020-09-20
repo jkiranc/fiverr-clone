@@ -1,6 +1,9 @@
 import React from "react";
 import "./styles.css";
 import Header from "./header";
+import {
+ Link
+} from "react-router-dom";
 
 function Home() {
   return (
@@ -24,10 +27,10 @@ function Home() {
             <div className="home_popular">
               Popular:
               <ul>
-                <li>Web and Mobile Design</li>
-                <li>WordPress</li>
-                <li>Logo Design</li>
-                <li>Dropshipping</li>
+                <li><Link to="/category/webandMobile">Web and Mobile Design</Link></li>
+                <li><Link to="/category/wordpress">WordPress</Link></li>
+                <li><Link to="/category/logodesign">Logo Design</Link></li>
+                <li><Link to="/category/dropshipping">Dropshipping</Link></li>
               </ul>
             </div>
           </div>
